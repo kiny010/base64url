@@ -1,8 +1,8 @@
 {
-  "name": "feather-base64url",
+  "name": "base64url",
   "version": "1.0.0",
-  "description": "Base64 URL Safe Library",
-  "main": "dist/bundle.min",
+  "description": "Base64URL Library written in ECMAScript 6",
+  "main": "dist/bundle.min.js",
   "scripts": {
     "build": "webpack --progress",
     "lint": "jshint lib/index.js",
