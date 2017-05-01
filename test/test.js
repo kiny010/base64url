@@ -3,7 +3,7 @@ import fs from "fs"
 import base64url from "./../lib/index"
 
 describe('base64url', () => {
-
+    
     describe('encode', () => {
         it('should return endcoded string: aGVsbG8gd29ybGQ', () => {
             assert.equal("aGVsbG8gd29ybGQ", base64url.encode('hello world'))
