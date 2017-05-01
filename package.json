@@ -5,7 +5,7 @@
   "main": "dist/bundle.min",
   "scripts": {
     "build": "webpack --progress",
-    "lint": "jshint test/test.js",
+    "lint": "jshint lib/index.js",
     "test": "mocha --compilers js:babel-core/register"
   },
   "author": "Brian K. Lau",
@@ -22,6 +22,5 @@
     "jshint": "2.9.4",
     "mocha": "3.2.0",
     "webpack": "2.4.1"
-  },
-  "dependencies": {}
+  }
 }
